@@ -16,3 +16,10 @@ export default {
   },
   plugins: [],
 } satisfies Config;
+
+module.exports = {
+  darkMode: 'class',            // toggle via “dark” class
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  theme: { extend: {} },
+  plugins: [],
+};

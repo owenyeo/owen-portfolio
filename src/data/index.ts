@@ -65,13 +65,13 @@ export const workExperience = [
     title: "JUSTRA AI, Software Engineering Intern",
     desc: "Built a SDK to interface with a hyperspectral camera for plastic sorting. C++, CUDA, TensorRT, Linux",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.png",
   },
   {
     id: 2,
     title: "Shopee, Search Optimisation, Algorithms Engineer Intern",
     desc: "Designed sequential recommendation models and conducted data analysis, feature engineering with PyTorch. Worked on prompt engineering research.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
 ];

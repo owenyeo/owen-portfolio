@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffects'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from "react-icons/fa";
+import { FaLocationArrow, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -34,11 +34,34 @@ const Hero = () => {
                 </p>
                 <a href="#about">
                     <MagicButton 
-                    title="Show my work"
+                    title="See my work"
                     icon={<FaLocationArrow />}
                     position="right"
                     />
                 </a>
+                <div className="flex gap-4 mt-6">
+                    <a
+                        href="https://github.com/owenyeo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm 
+                                backdrop-blur-md hover:bg-white/10 transition"
+                    >
+                        <FaGithub className="text-lg" />
+                        GitHub
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/owen-yeo-a0b45a254/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm 
+                                backdrop-blur-md hover:bg-white/10 transition"
+                    >
+                        <FaLinkedin className="text-lg text-blue-400" />
+                        LinkedIn
+                    </a>
+                </div>
             </div>
         </div>
     </div>

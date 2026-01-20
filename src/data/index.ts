@@ -75,3 +75,41 @@ export const workExperience = [
     thumbnail: "/exp2.png",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Barbell Tracker",
+    desc: "Built a Barbell Tracker powered by YOLOv8 to detect reps and barpaths for the gym. Great for ensuring form!",
+    className: "md:col-span-2",
+    thumbnail: "/bb.gif",
+  },
+  {
+    id: 2,
+    title: "DriftX",
+    desc: "Designed sequential recommendation models and conducted data analysis, feature engineering with PyTorch. Worked on prompt engineering research.",
+    className: "md:col-span-2",
+    thumbnail: "/driftx.jpg",
+  },
+  {
+    id: 3,
+    title: "PeerPrep",
+    desc: "Designed sequential recommendation models and conducted data analysis, feature engineering with PyTorch. Worked on prompt engineering research.",
+    className: "md:col-span-2",
+    thumbnail: "/peerprep.gif",
+  },
+  {
+    id: 4,
+    title: "Obscura",
+    desc: "Obscura is a full-stack application built with FastAPI and an ensemble model for detecting and obscuring privacy risks in text and images.",
+    className: "md:col-span-2",
+    thumbnail: "/obscura.gif",
+  },
+  {
+    id: 5,
+    title: "Go Forum",
+    desc: "My first fullstack project back in Y2! Focused mainly on learning Go and the basics of fullstack development.",
+    className: "md:col-span-2",
+    thumbnail: "/forum.gif",
+  },
+];
